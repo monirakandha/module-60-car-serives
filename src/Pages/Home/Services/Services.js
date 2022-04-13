@@ -9,7 +9,7 @@ useEffect(() => {
   .then(data => setServices(data));
 } , [])
   return (
-    <div>
+    <div className="container">
       <h2 className="services-title" >Servies : {services.length} </h2>
       <div className="services-container">
       {
